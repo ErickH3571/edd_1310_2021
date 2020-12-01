@@ -1,0 +1,17 @@
+from Listas import CircularList
+
+lc = CircularList()
+print(f"Lc esta vacia?: { lc.is_empety() }")
+lc.insert(10)
+lc.transversal()
+lc.insert(5)
+lc.transversal()
+lc.insert(20)
+lc.transversal()
+lc.insert(6)
+lc.transversal()
+lc.insert(2)
+print(f"Lc esta vacia?: { lc.is_empety() }")
+print(f"Tamaño de la lista: { lc.get_size() }")
+print(lc.search(11))
+print(lc.search(5))
